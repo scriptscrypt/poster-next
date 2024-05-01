@@ -30,38 +30,69 @@ const BottomBar = () => {
                 />
               </PopoverTrigger>
             </div>
+
             <div className="hover:bg-[#F6F6F6] cursor-pointer h-[56px] w-[56px] rounded-2xl flex items-center align-middle justify-center text-center">
-              <EditorIconUpload width={40} height={40} strokeColor="#323232" />
+              <PopoverTrigger>
+                <EditorIconUpload
+                  width={40}
+                  height={40}
+                  strokeColor="#323232"
+                />
+              </PopoverTrigger>
             </div>
+
             <div className="hover:bg-[#F6F6F6] cursor-pointer h-[56px] w-[56px] rounded-2xl flex items-center align-middle justify-center text-center">
-              <EditorIconNFTS width={40} height={40} strokeColor="#323232" />
+              <PopoverTrigger>
+                <EditorIconNFTS width={40} height={40} strokeColor="#323232" />
+              </PopoverTrigger>
             </div>
+
             <div className="hover:bg-[#F6F6F6] cursor-pointer h-[56px] w-[56px] rounded-2xl flex items-center align-middle justify-center text-center">
-              <EditorIconTextCursor
-                width={40}
-                height={40}
-                strokeColor="#323232"
-              />
+              <PopoverTrigger>
+                <EditorIconTextCursor
+                  width={40}
+                  height={40}
+                  strokeColor="#323232"
+                />
+              </PopoverTrigger>
             </div>
+
             <div className="hover:bg-[#F6F6F6] cursor-pointer h-[56px] w-[56px] rounded-2xl flex items-center align-middle justify-center text-center">
-              <EditorIconTemplates
-                width={40}
-                height={40}
-                strokeColor="#323232"
-              />
+              <PopoverTrigger>
+                <EditorIconTemplates
+                  width={40}
+                  height={40}
+                  strokeColor="#323232"
+                />
+              </PopoverTrigger>
             </div>
+
             <div className="hover:bg-[#F6F6F6] cursor-pointer h-[56px] w-[56px] rounded-2xl flex items-center align-middle justify-center text-center">
-              <EditorIconAIPanel width={40} height={40} strokeColor="#323232" />
+              <PopoverTrigger>
+                <EditorIconAIPanel
+                  width={40}
+                  height={40}
+                  strokeColor="#323232"
+                />
+              </PopoverTrigger>
             </div>
+
             <div className="hover:bg-[#F6F6F6] cursor-pointer h-[56px] w-[56px] rounded-2xl flex items-center align-middle justify-center text-center">
-              <EditorIconDraw width={40} height={40} strokeColor="#323232" />
+              <PopoverTrigger>
+                <EditorIconDraw width={40} height={40} strokeColor="#323232" />
+              </PopoverTrigger>
             </div>
+
             <div className="hover:bg-[#F6F6F6] cursor-pointer h-[56px] w-[56px] rounded-2xl flex items-center align-middle justify-center text-center">
-              <EditorIconShape width={40} height={40} strokeColor="#323232" />
+              <PopoverTrigger>
+                <EditorIconShape width={40} height={40} strokeColor="#323232" />
+              </PopoverTrigger>
             </div>
           </div>
-
-          <PopoverContent> Section Contents</PopoverContent>
+          <PopoverContent className="rounded-3xl h-80 w-96">
+            {" "}
+            Section Contents
+          </PopoverContent>
         </Popover>
 
         <div className="border border-[#D6D6D6] h-[72px] rounded-3xl"></div>
