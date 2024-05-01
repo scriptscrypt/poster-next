@@ -14,6 +14,7 @@ export const EditorIconPointer = ({
         width={width || 30}
         height={height || 30}
         fill={fill || "none"}
+        viewBox="0 0 40 40"
       >
         <path
           stroke={strokeColor || "#000"}
@@ -43,6 +44,7 @@ export const EditorIconUpload = ({
         width={width || 30}
         height={height || 30}
         fill={fill || "none"}
+        viewBox="0 0 40 40"
       >
         <path
           stroke={strokeColor || "#000"}
@@ -72,6 +74,7 @@ export const EditorIconNFTS = ({
         width={width || 30}
         height={height || 30}
         fill={fill || "none"}
+        viewBox="0 0 40 40"
       >
         <path
           stroke={strokeColor || "#000"}
@@ -101,6 +104,7 @@ export const EditorIconTextCursor = ({
         width={width || 30}
         height={height || 30}
         fill={fill || "none"}
+        viewBox="0 0 40 40"
       >
         <path
           stroke={strokeColor || "#000"}
@@ -129,6 +133,7 @@ export const EditorIconTemplates = ({
         width={width || 30}
         height={height || 30}
         fill={fill || "none"}
+        viewBox="0 0 40 40"
       >
         <path
           stroke={strokeColor || "#000"}
@@ -157,6 +162,7 @@ export const EditorIconAIPanel = ({
         width={width || 30}
         height={height || 30}
         fill={fill || "none"}
+        viewBox="0 0 40 40"
       >
         <path
           stroke={strokeColor || "#000"}
@@ -185,6 +191,7 @@ export const EditorIconDraw = ({
         width={width || 30}
         height={height || 30}
         fill={fill || "none"}
+        viewBox="0 0 40 40"
       >
         <path
           stroke={strokeColor || "#000"}
@@ -213,6 +220,7 @@ export const EditorIconShape = ({
         width={width || 30}
         height={height || 30}
         fill={fill || "none"}
+        viewBox="0 0 40 40"
       >
         <path
           stroke={strokeColor || "#000"}
